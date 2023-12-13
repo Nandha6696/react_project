@@ -1,0 +1,63 @@
+/* Login.css */
+
+/* Container styling */
+body{
+  background-image: url('C:\Users\nandh\reactapp\login\src\web-design-3411373_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-container {
+  width: 400px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+  border: 1px solid #f41313;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styling */
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input styling */
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+/* Submit button styling */
+button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3;
+}
